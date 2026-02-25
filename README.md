@@ -1,6 +1,6 @@
 # Hi there, I'm Waqas Sharif. 👋
 
-### Final-Year Software Engineering Student | Agentic AI Specialist
+### Final-Year Software Engineering Student | Agentic AI & Multi-Agent Systems
 **Bridging the gap between deterministic software architecture and probabilistic Generative AI.**
 
 🟢 **Status:** Open to Remote Internships & Part-Time AI/ML Roles.
@@ -46,7 +46,7 @@ My work focuses on two core engineering pillars:
 | **[Autonomous Research Concierge](https://github.com/Waqas01CP/Autonomous-Research-Concierge)** | A production-grade **Multi-Agent System** that interviews users to clarify intent before executing parallel research. Features **Session Isolation** and a recursive **Draft-Critic-Validator** loop. | `Google ADK` `Python` `AsyncIO` |
 | **[Applied LLM Workflow Research](https://github.com/Waqas01CP/Applied-LLM-Workflow-Research)** | A behavioral meta-analysis of Google Gemini. Documents the **"Master Workflow"** protocol to solve "Optimal Answer Traps" and includes **Red Teaming** logs for historical hallucination. | `AI Studio` `Research` `Markdown` |
 | **[Resume & Cover Letter Assistant](https://github.com/Waqas01CP/resume-assistant)** | A GUI-based GenAI tool implementing system-level instructions to enforce a "Career Mentor" persona. | `OpenAI API` `Panel` `Python` |
-| **[WordPy Solver](https://github.com/Waqas01CP/WordPy-Solver)** | PIL pixel color sampling + constraint-based filtering with greedy information-gain heuristic | `Pillow` `Constraint Filtering` `Python` `PIL Image Reading` |
+| **[WordPy Solver](https://github.com/Waqas01CP/WordPy-Solver)** | An autonomous solver that reads game state directly from PIL-rendered images via pixel color sampling, then eliminates candidates using constraint-based filtering and a greedy information-gain heuristic. | `Pillow` `Constraint Filtering` `Python` `PIL Image Reading` |
 
 
 ---
