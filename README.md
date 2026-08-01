@@ -3,9 +3,9 @@
 ### Software Engineering Graduate · Agentic AI Systems · LLM Behavior Research
 **I design and build production-grade agentic AI systems and study how large language models fail in extended interactions.**
 
-I treat LLMs not as magic boxes but as stochastic components that require deterministic guardrails, typed state management, and structured orchestration. My work sits at the intersection of production systems engineering and applied AI research — building the systems, then studying their failure modes.
+I treat LLMs not as magic boxes but as stochastic components that require deterministic guardrails, typed state management, and structured orchestration. My work sits at the intersection of production systems engineering and applied AI research: building the systems, then studying their failure modes.
 
-🟢 **Status:** Graduating August 2026 — open to AI engineering roles and Masters applications (Winter 2027/28 intake)
+🟢 **Status:** Graduating August 2026. Open to AI engineering roles and Masters applications (Winter 2027/28 intake)
 
 ---
 
@@ -22,9 +22,9 @@ I treat LLMs not as magic boxes but as stochastic components that require determ
 
 | Project | Description | Stack |
 | :--- | :--- | :--- |
-| **Rahzaan — AI Career Guidance** *(Private FYP · [Live Demo](https://fyp-career-guidance.vercel.app/#/onboarding))* | Production-deployed career counselling platform. 26-node parallel multi-agent pipeline cutting first-response latency from 20–25 seconds to 3.7 seconds, 265-question psychometric assessment stack, live SSE streaming, 29-route Flutter frontend. | `LangGraph` `FastAPI` `Flutter` `Supabase` |
+| **Rahzaan · AI Career Guidance** *(Private · [Case Study](https://waqas01cp.github.io/Rahzaan/) · [Live Demo](https://fyp-career-guidance.vercel.app/#/onboarding))* | Production-deployed career counselling platform. 26-node parallel multi-agent pipeline cutting first-response latency from 20–25 seconds to 3.7 seconds, 265-question psychometric assessment stack, live SSE streaming, 29-route Flutter frontend. | `LangGraph` `FastAPI` `Flutter` `Supabase` |
 | **[Autonomous Research Concierge](https://github.com/Waqas01CP/Autonomous-Research-Concierge)** | Production multi-agent research pipeline. An intent synthesiser compacts chat history into a research directive before three search agents fan out concurrently. Per-call session isolation, deterministic security guardrail, draft-critique-validate loop. Deployed on Railway. | `Google ADK` `Gemini API` `Docker` `Python` |
-| **[Applied LLM Workflow Research](https://github.com/Waqas01CP/Applied-LLM-Workflow-Research)** | Independent behavioral research on Gemini 2.5 Pro. Documents three original constructs — Optimal Answer Trap, Final Synthesis Bias, Conversational Gravity — with controlled case studies and quantitative findings. | `Gemini API` `Streamlit` `Python` |
+| **[Applied LLM Workflow Research](https://github.com/Waqas01CP/Applied-LLM-Workflow-Research)** | Independent behavioral research on Gemini 2.5 Pro. Documents three original constructs (Optimal Answer Trap, Final Synthesis Bias, Conversational Gravity) with controlled case studies and quantitative findings. | `Gemini API` `Streamlit` `Python` |
 | **[Crypto Accumulation Scanner](https://github.com/Waqas01CP/Crypto-Accumulation-Scanner)** | Scans 1,200+ cryptocurrencies daily across CoinMarketCap and MEXC Futures. Classifies price action into 7 accumulation signatures and applies a log-log regression Z-score volatility model derived from 2020–2024 market data, normalised by market-cap tier. | `Google Apps Script` `JavaScript` `CoinMarketCap API` |
 | **[WordPy Solver](https://github.com/Waqas01CP/WordPy-Solver)** | Autonomous Wordle solver using pixel colour sampling to read game state without OCR. Constraint-based filtering with a greedy information-gain heuristic. 85%+ solve rate within six guesses across a 5,922-word list, covered by a 36-test suite. | `Python` `Pillow` |
 
@@ -82,7 +82,7 @@ Context Engineering · Prompt Engineering (Red Teaming, Chain of Density, Tree o
 
 ### 🔭 Currently
 
-- **Rahzaan** — finalised as a final year project, now continuing as a student-facing product with expanding university dataset coverage
+- **Rahzaan**: finalised as a final year project, now continuing as a student-facing product with expanding university dataset coverage
 - Independent research interests in LLM behavioral failure modes: context anchoring and long-horizon drift
 - Preparing Masters applications for AI and intelligent systems programs — Winter 2027/28 intake
 
