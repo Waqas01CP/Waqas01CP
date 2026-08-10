@@ -67,6 +67,9 @@ I treat LLMs not as magic boxes but as stochastic components that require determ
 **AI Engineering Practices**
 Context Engineering · Prompt Engineering (Red Teaming, Chain of Density, Tree of Thoughts, Token Sampling)
 
+**Engineering Practice**
+Test Automation · Evaluation Design · Data Pipelines · Observability and Tracing (LangSmith) · Concurrent State Management
+
 ---
 
 ### 📊 Stats
@@ -82,7 +85,7 @@ Context Engineering · Prompt Engineering (Red Teaming, Chain of Density, Tree o
 
 ### 🔭 Currently
 
-- **Rahzaan**: finalised as a final year project, now continuing as a student-facing product with expanding university dataset coverage
+**Rahzaan**: completed and defended as a final year project, now being extended so any student in Karachi can use it
 - Independent research interests in LLM behavioral failure modes: context anchoring and long-horizon drift
 - Preparing Masters applications for AI and intelligent systems programs — Winter 2027/28 intake
 
