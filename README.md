@@ -67,7 +67,7 @@ I treat LLMs not as magic boxes but as stochastic components that require determ
 **AI Engineering Practices**
 Context Engineering · Prompt Engineering (Red Teaming, Chain of Density, Tree of Thoughts, Token Sampling)
 
-**Engineering Practice**
+**Systems and Reliability**
 Test Automation · Evaluation Design · Data Pipelines · Observability and Tracing (LangSmith) · Concurrent State Management
 
 ---
