@@ -85,7 +85,7 @@ Test Automation · Evaluation Design · Data Pipelines · Observability and Trac
 
 ### 🔭 Currently
 
-**Rahzaan**: completed and defended as a final year project, now being extended so any student in Karachi can use it
+- **Rahzaan**: completed and defended as a final year project, now being extended so any student in Karachi can use it
 - Independent research interests in LLM behavioral failure modes: context anchoring and long-horizon drift
 - Preparing Masters applications for AI and intelligent systems programs — Winter 2027/28 intake
 
