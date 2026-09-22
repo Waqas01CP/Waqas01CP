@@ -4,7 +4,7 @@
 **I build production agentic AI systems, then measure how they fail.**
 
 I treat LLMs as stochastic components that need deterministic guardrails,
-typed state management and a real evaluation harness — not as magic boxes.
+typed state management and a real evaluation harness, not as magic boxes.
 Most of my work is the second half of that sentence: building the system is
 the easy part, proving it behaves is not.
 
@@ -18,7 +18,7 @@ Also preparing Masters applications for Winter 2027/28.
 
 | 🔬 **Evaluation and reliability** | 🏗️ **Production systems** |
 | :--- | :--- |
-| A 46-file behavioural test suite of 592 automated tests, 19 behavioural probes using paired before-and-after measurement, 60 per-turn traces across five personas, and three named reproducible LLM failure modes | Multi-agent systems with typed state, concurrent-write reducers, deterministic quality gates and streaming, recorded across 334 documented build and audit sessions |
+| A 46-file behavioural test suite of 592 automated tests, 19 behavioural probes using paired before-and-after measurement, 60 per-turn traces across five personas, and three named reproducible LLM failure modes | Agentic systems with typed state, concurrent-write reducers, deterministic quality gates and streaming, recorded across 334 documented build and audit sessions |
 | *Evaluation Design · Behavioural Testing · Red Teaming · Token Sampling · LangSmith* | *LangGraph · Google ADK · FastAPI · Flutter · SSE Streaming* |
 
 ---
@@ -28,8 +28,8 @@ Also preparing Masters applications for Winter 2027/28.
 | Project | Description | Stack |
 | :--- | :--- | :--- |
 | **Rahzaan · AI Career Guidance** *(Source private · [Case Study](https://waqas01cp.github.io/Rahzaan/) · [Live Demo](https://fyp-career-guidance.vercel.app/#/onboarding))* | Deployed career counselling platform for Pakistani secondary school students. Maintained through an evaluation harness of 19 behavioural probes and 592 automated tests over a 24-node LangGraph pipeline, first response cut from 20–25s to 3.7s. 265-item psychometric assessment stack, 9-criterion reflection gate, live SSE streaming, 29-route Flutter frontend. The case study documents the failures as well as the build. | `LangGraph` `FastAPI` `Flutter` `PostgreSQL` |
-| **[Autonomous Research Concierge](https://github.com/Waqas01CP/Autonomous-Research-Concierge)** | Multi-agent research pipeline. An intent synthesiser compacts chat history into a research directive before three search agents fan out concurrently. Per-call session isolation, and a deterministic code-based filter ahead of all tool access so the guardrail is structurally bypass-resistant rather than prompt-enforced. Deployed on Railway. | `Google ADK` `Gemini API` `Docker` `Python` |
-| **[Applied LLM Workflow Research](https://github.com/Waqas01CP/Applied-LLM-Workflow-Research)** | Behavioural study of Gemini 2.5 Pro. Names three reproducible failure modes — Optimal Answer Trap, Final Synthesis Bias, Conversational Gravity — each with documented prompt sequences. Includes controlled sampling experiments, 1M-token context stress tests, and context-ordering trials showing a ~30% retrieval error rate when context follows rather than precedes the instruction. | `Gemini API` `Streamlit` `Python` |
+| **[Autonomous Research Concierge](https://github.com/Waqas01CP/Autonomous-Research-Concierge)** | Multi-agent research pipeline. An intent synthesiser compacts chat history into a research directive before three search agents fan out concurrently. Per-call session isolation, and a deterministic code-based filter ahead of all tool access so the guardrail is structurally bypass-resistant rather than prompt-enforced. Deployed on Railway. | `Google ADK` `Docker` `Python` |
+| **[Applied LLM Workflow Research](https://github.com/Waqas01CP/Applied-LLM-Workflow-Research)** | Behavioural study of Gemini 2.5 Pro. Names three reproducible failure modes (Optimal Answer Trap, Final Synthesis Bias, Conversational Gravity), each with documented prompt sequences. Includes controlled sampling experiments, 1M-token context stress tests, and context-ordering trials showing a ~30% retrieval error rate when context follows rather than precedes the instruction. | `Python` `Streamlit` |
 | **[Crypto Accumulation Scanner](https://github.com/Waqas01CP/Crypto-Accumulation-Scanner)** | Scans 1,200+ cryptocurrencies daily across CoinMarketCap and MEXC Futures. Classifies price action into 7 accumulation signatures and applies a log-log regression volatility baseline derived from 2020–2024 market data, normalised by market-cap tier so outliers surface instead of size artefacts. | `Google Apps Script` `JavaScript` `CoinMarketCap API` |
 | **[WordPy Solver](https://github.com/Waqas01CP/WordPy-Solver)** | Autonomous Wordle solver reading game state by sampling tile pixel colour instead of OCR, since the corner region is pure background regardless of font or antialiasing. Constraint-based filtering with a greedy information-gain heuristic. 85%+ solve rate within six guesses across a 5,922-word list, covered by a 36-test suite. | `Python` `Pillow` |
 
@@ -45,7 +45,7 @@ Also preparing Masters applications for Winter 2027/28.
 ![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=for-the-badge)
 ![LangSmith](https://img.shields.io/badge/LangSmith-1C3C3C?style=for-the-badge)
 
-**Primary languages**
+**Languages**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
@@ -69,9 +69,9 @@ Also preparing Masters applications for Winter 2027/28.
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Google Apps Script](https://img.shields.io/badge/Apps%20Script-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
-**Practices** — Context Engineering · Prompt Engineering · Evaluation Design · Behavioural Testing · Red Teaming · Chain of Density · Tree of Thoughts · Token Sampling
+**Practices:** Context Engineering · Prompt Engineering · Evaluation Design · Behavioural Testing · Red Teaming · Chain of Density · Tree of Thoughts · Token Sampling
 
-**Also used** — C/C++, C#, Java and .NET/ASP.NET in university coursework. Listed for completeness, not claimed as working skills.
+**Also:** C and C#, used throughout my degree; C++ and Java from coursework. .NET and ASP.NET from coursework.
 
 ---
 
@@ -88,10 +88,12 @@ Also preparing Masters applications for Winter 2027/28.
 
 ### 💼 Experience
 
-**AI Automation Engineer (Intern), HubIT** — June to July 2026, Karachi.
-Built a Python pipeline extracting recurring utility documents into schema-validated billing records for a residential property management client, with repair-and-retry on malformed model output so bad records were blocked before billing. Designed the reconciliation stage matching records to individual units, hardened against silent mis-mapping with structured failure logging.
+**AI Automation Engineer (Intern), HubIT**, June 2026 to July 2026, Karachi.
 
-**Engineering Intern, Pakistan Aeronautical Complex (PAC) Kamra** — Jan to Feb 2024.
+- Built a **Python** pipeline extracting recurring utility documents into **schema-validated billing records** for a residential property management client, replacing a manual data entry step; enforced strict validation with repair and retry on malformed model output, blocking bad records before they reached billing.
+- Designed the **reconciliation stage** matching extracted records to individual units, hardening it against silent mis-mapping and dropped records with validation and structured failure logging, and building up a test suite from each failure found.
+
+**Engineering Intern, Pakistan Aeronautical Complex (PAC) Kamra**, Jan to Feb 2024.
 Analysed systems integration workflows, avionics production pipelines and precision manufacturing across the JF-17 Thunder programme.
 
 ---
