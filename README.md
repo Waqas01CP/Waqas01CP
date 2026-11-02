@@ -8,7 +8,7 @@ typed state management and a real evaluation harness, not as magic boxes.
 Most of my work is the second half of that sentence: building the system is
 the easy part, proving it behaves is not.
 
-🟢 **Status:** BE Software Engineering, KIET, completed August 2026.
+🟢 **Status:** BE Software Engineering, KIET, completed July 2026.
 Open to remote AI engineering roles. **No visa sponsorship required.**
 Also preparing Masters applications for Winter 2027/28.
 
@@ -28,6 +28,8 @@ Also preparing Masters applications for Winter 2027/28.
 | Project | Description | Stack |
 | :--- | :--- | :--- |
 | **Rahzaan · AI Career Guidance** *(Source private · [Case Study](https://waqas01cp.github.io/Rahzaan/) · [Live Demo](https://fyp-career-guidance.vercel.app/#/onboarding))* | Deployed career counselling platform for Pakistani secondary school students. Maintained through an evaluation harness of 19 behavioural probes and 592 automated tests over a 24-node LangGraph pipeline, first response cut from 20–25s to 3.7s. 265-item psychometric assessment stack, 9-criterion reflection gate, live SSE streaming, 29-route Flutter frontend. The case study documents the failures as well as the build. | `LangGraph` `FastAPI` `Flutter` `PostgreSQL` |
+| **[Job Aggregator](https://github.com/Waqas01CP/job-aggregator)** | Unattended pipeline on GitHub Actions that reads eleven employer ATS boards twice a day and one aggregator daily, admits or drops every posting by a named deterministic rule, and keeps its data in Git branches. Running in production since September 2026, covered by 754 tests and 410 recorded mutations. | `Python` `GitHub Actions` `Airtable` |
+| **[Portfolio Gallery](https://github.com/Waqas01CP/portfolio-gallery)** *([Gallery](https://waqas01cp.github.io/portfolio-gallery/))* | Public MIT template for publishing a one-page portfolio on GitHub Pages without installing anything, with 17 designs, 10 of them for professions. Every pull request is checked for accessibility and speed in CI, and strangers' contributions are handled safely by design. | `Python` `GitHub Actions` `GitHub Pages` |
 | **[ChatGPT Deep Research Provenance Case Study](https://github.com/Waqas01CP/chatgpt-deep-research-provenance-case-study)** | Black-box investigation of Deep Research runs that displayed completion with 0 searches and 0 citations while still producing source-specific reports. Preserved a nonzero historical baseline, reduced the symptom to a three-central-bank canary, captured a client citation-rendering warning, verified very recent policy facts against official sources, and published a privacy-bounded evidence set with SHA-256 and CI checks. | `LLM Evaluation` `Black-box Testing` `GitHub Actions` |
 | **[Autonomous Research Concierge](https://github.com/Waqas01CP/Autonomous-Research-Concierge)** | Multi-agent research pipeline. An intent synthesiser compacts chat history into a research directive before three search agents fan out concurrently. Per-call session isolation, and a deterministic code-based filter ahead of all tool access so the guardrail is structurally bypass-resistant rather than prompt-enforced. Deployed on Railway. | `Google ADK` `Docker` `Python` |
 | **[Applied LLM Workflow Research](https://github.com/Waqas01CP/Applied-LLM-Workflow-Research)** | Behavioural study of Gemini 2.5 Pro. Names three reproducible failure modes (Optimal Answer Trap, Final Synthesis Bias, Conversational Gravity), each with documented prompt sequences. Includes controlled sampling experiments, 1M-token context stress tests, and context-ordering trials showing a ~30% retrieval error rate when context follows rather than precedes the instruction. | `Python` `Streamlit` |
@@ -70,7 +72,11 @@ Also preparing Masters applications for Winter 2027/28.
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Google Apps Script](https://img.shields.io/badge/Apps%20Script-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
-**Practices:** Context Engineering · Prompt Engineering · Evaluation Design · Behavioural Testing · Red Teaming · Chain of Density · Tree of Thoughts · Token Sampling
+**AI-Native Development:** Claude Code · Claude Design · Agent Skills · Model Context Protocol (MCP) · Antigravity · Codex · Google AI Studio · Spec-Driven Development · Directing and Reviewing Coding Agents
+
+**AI engineering practices:** Context Engineering · Prompt Engineering · Evaluation Design · Behavioural Testing · Black-Box Testing · Failure Analysis · Red Teaming · Chain of Density · Tree of Thoughts · Token Sampling
+
+**Software engineering practices:** Architecture Decision Records (ADRs) · Mutation Testing · Fitness Functions · Independent Code Audits · CI/CD · Accessibility Testing
 
 **Also:** C and C#, used throughout my degree; C++ and Java from coursework. .NET and ASP.NET from coursework.
 
@@ -102,12 +108,15 @@ Analysed systems integration workflows, avionics production pipelines and precis
 ### 🔭 Currently
 
 - Extending **Rahzaan** so any student in Karachi can use it
-- Independent research on LLM behavioural failure modes: context anchoring and long-horizon drift
+- Maintaining [Portfolio Gallery](https://github.com/Waqas01CP/portfolio-gallery), a public template anyone can copy for their own portfolio site
 - Preparing Masters applications for AI and intelligent systems programmes, Winter 2027/28
 
 ---
 
 <div align="center">
+  <a href="https://waqas01cp.github.io/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-222222?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio"/>
+  </a>
   <a href="https://www.linkedin.com/in/ma-waqas-sharif/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
