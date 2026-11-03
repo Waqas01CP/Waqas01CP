@@ -10,7 +10,6 @@ the easy part, proving it behaves is not.
 
 🟢 **Status:** BE Software Engineering, KIET, completed July 2026.
 Open to remote AI engineering roles. **No visa sponsorship required.**
-Also preparing Masters applications for Winter 2027/28.
 
 ---
 
@@ -109,7 +108,6 @@ Analysed systems integration workflows, avionics production pipelines and precis
 
 - Extending **Rahzaan** so any student in Karachi can use it
 - Maintaining [Portfolio Gallery](https://github.com/Waqas01CP/portfolio-gallery), a public template anyone can copy for their own portfolio site
-- Preparing Masters applications for AI and intelligent systems programmes, Winter 2027/28
 
 ---
 
