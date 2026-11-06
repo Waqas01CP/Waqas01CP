@@ -26,7 +26,7 @@ Open to remote AI engineering roles. **No visa sponsorship required.**
 
 | Project | Description | Stack |
 | :--- | :--- | :--- |
-| **Rahzaan · AI Career Guidance** *(Source private · [Case Study](https://waqas01cp.github.io/Rahzaan/) · [Live Demo](https://fyp-career-guidance.vercel.app/#/onboarding))* | Deployed career counselling platform for Pakistani secondary school students. Maintained through an evaluation harness of 19 behavioural probes and 592 automated tests over a 24-node LangGraph pipeline, first response cut from 20–25s to 3.7s. 265-item psychometric assessment stack, 9-criterion reflection gate, live SSE streaming, 29-route Flutter frontend. The case study documents the failures as well as the build. | `LangGraph` `FastAPI` `Flutter` `PostgreSQL` |
+| **Rahzaan · AI Career Guidance** *(Source private · [Case Study](https://waqas01cp.github.io/Rahzaan/) · [Live Demo](https://fyp-career-guidance.vercel.app/#/onboarding))* | Deployed career counselling platform for Pakistani secondary school students. Built with an evaluation harness of 19 behavioural probes and 592 automated tests over a 24-node LangGraph pipeline, first response cut from 20–25s to 3.7s. 265-item psychometric assessment stack, 9-criterion reflection gate, live SSE streaming, 29-route Flutter frontend. The case study documents the failures as well as the build. | `LangGraph` `FastAPI` `Flutter` `PostgreSQL` |
 | **[Job Aggregator](https://github.com/Waqas01CP/job-aggregator)** | Unattended pipeline on GitHub Actions that reads eleven employer ATS boards twice a day and one aggregator daily, admits or drops every posting by a named deterministic rule, and keeps its data in Git branches. Running in production since September 2026, covered by 754 tests and 410 recorded mutations. | `Python` `GitHub Actions` `Airtable` |
 | **[Portfolio Gallery](https://github.com/Waqas01CP/portfolio-gallery)** *([Gallery](https://waqas01cp.github.io/portfolio-gallery/))* | Public MIT template for publishing a one-page portfolio on GitHub Pages without installing anything, with 17 designs, 10 of them for professions. Every pull request is checked for accessibility and speed in CI, and strangers' contributions are handled safely by design. | `Python` `GitHub Actions` `GitHub Pages` |
 | **[ChatGPT Deep Research Provenance Case Study](https://github.com/Waqas01CP/chatgpt-deep-research-provenance-case-study)** | Black-box investigation of Deep Research runs that displayed completion with 0 searches and 0 citations while still producing source-specific reports. Preserved a nonzero historical baseline, reduced the symptom to a three-central-bank canary, captured a client citation-rendering warning, verified very recent policy facts against official sources, and published a privacy-bounded evidence set with SHA-256 and CI checks. | `LLM Evaluation` `Black-box Testing` `GitHub Actions` |
@@ -106,7 +106,6 @@ Analysed systems integration workflows, avionics production pipelines and precis
 
 ### 🔭 Currently
 
-- Extending **Rahzaan** so any student in Karachi can use it
 - Maintaining [Portfolio Gallery](https://github.com/Waqas01CP/portfolio-gallery), a public template anyone can copy for their own portfolio site
 
 ---
